@@ -83,11 +83,13 @@ function Home() {
             </div>
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
-            <img
+{/*             <img
               src={pic}
               className="rounded-full md:w-[450px] md:h-[450px]"
               alt=""
-            />
+            /> */}
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.32/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/wL2H3VZk6T0HM-nY/scene.splinecode"></spline-viewer>
           </div>
         </div>
       </div>
